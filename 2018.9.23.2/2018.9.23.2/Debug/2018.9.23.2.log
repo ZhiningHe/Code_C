@@ -1,0 +1,12 @@
+﻿生成启动时间为 2018/9/25 18:45:22。
+     1>项目“C:\Users\贺致宁\Desktop\比特作业\2018.9.23.2\2018.9.23.2\2018.9.23.2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt text.c
+         text.c
+     1>c:\users\贺致宁\desktop\比特作业\2018.9.23.2\2018.9.23.2\text.c(29): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>已完成生成项目“C:\Users\贺致宁\Desktop\比特作业\2018.9.23.2\2018.9.23.2\2018.9.23.2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.22
