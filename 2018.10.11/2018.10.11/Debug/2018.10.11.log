@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/10/11 14:23:50。
+     1>项目“D:\ZhiningHe\bit_每日练习\2018.10.11\2018.10.11\2018.10.11.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt SeqList.c
+         SeqList.c
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(24): warning C4133: “=”: 从“List *”到“int *”的类型不兼容
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(73): warning C4047: “=”:“List *”与“int”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(80): warning C4098: “deleteNode”:“void”函数返回值
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(91): warning C4047: “return”:“List *”与“int”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(153): warning C4098: “Clear”:“void”函数返回值
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(157): warning C4013: “memset”未定义；假设外部返回 int
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(158): warning C4098: “Clear”:“void”函数返回值
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(166): warning C4098: “Delete”:“void”函数返回值
+     1>d:\zhininghe\bit_每日练习\2018.10.11\2018.10.11\seqlist.c(174): warning C4098: “Delete”:“void”函数返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ZhiningHe\bit_每日练习\2018.10.11\Debug\2018.10.11.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\ZhiningHe\bit_每日练习\2018.10.11\Debug\2018.10.11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ZhiningHe\bit_每日练习\2018.10.11\Debug\2018.10.11.lib" /MACHINE:X86 Debug\SeqList.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+     1>D:\ZhiningHe\bit_每日练习\2018.10.11\Debug\2018.10.11.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\ZhiningHe\bit_每日练习\2018.10.11\2018.10.11\2018.10.11.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.67
