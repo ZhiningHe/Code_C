@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/10/24 22:25:08。
+     1>项目“D:\ZhiningHe\bit_每日练习\Game_Minesweeper\Game_Minesweeper\Game_Minesweeper.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt game.c
+         game.c
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(107): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(107): warning C4024: “open_mine”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(107): warning C4024: “open_mine”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(108): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(108): warning C4024: “print_player”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(108): warning C4047: “函数”:“char (*)[12]”与“int”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(108): warning C4024: “print_player”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(108): error C2198: “print_player”: 用于调用的参数太少
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(110): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(110): warning C4024: “count_show_mine”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(110): warning C4024: “count_show_mine”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(112): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(112): warning C4024: “print_mine”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(150): warning C4028: 形参 2 与声明不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(150): warning C4029: 声明的形参表不同于定义
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(186): warning C4028: 形参 2 与声明不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(186): warning C4029: 声明的形参表不同于定义
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(213): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(213): warning C4024: “init”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(213): warning C4024: “init”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(214): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(214): warning C4024: “print_player”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(214): warning C4024: “print_player”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(218): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(218): warning C4024: “print_player”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(218): warning C4024: “print_player”: 形参和实参 2 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(219): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(219): warning C4024: “set_min”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(220): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(220): warning C4024: “player”: 形参和实参 1 的类型不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(227): warning C4047: “函数”:“char (*)[12]”与“char”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\game_minesweeper\game_minesweeper\game.c(227): warning C4024: “player”: 形参和实参 1 的类型不同
+     1>已完成生成项目“D:\ZhiningHe\bit_每日练习\Game_Minesweeper\Game_Minesweeper\Game_Minesweeper.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.19
