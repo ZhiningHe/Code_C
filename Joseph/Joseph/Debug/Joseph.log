@@ -1,0 +1,91 @@
+﻿生成启动时间为 2018/10/26 22:43:27。
+     1>项目“c:\Users\贺致宁\documents\visual studio 2013\Projects\Joseph\Joseph\Joseph.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\ZhiningHe\Apps\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt clist.c test.c
+         test.c
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(8): error C2061: 语法错误: 标识符“pnode”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(9): error C2059: 语法错误:“}”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(14): error C2061: 语法错误: 标识符“pnode”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(15): error C2059: 语法错误:“}”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2061: 语法错误: 标识符“Creat”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(10): error C2065: “phead”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(10): error C2146: 语法错误: 缺少“;”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(10): error C2065: “ph”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(10): warning C4013: “Creat”未定义；假设外部返回 int
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(17): warning C4013: “Init”未定义；假设外部返回 int
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(17): error C2065: “ph”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(27): error C2065: “pnode”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(27): error C2146: 语法错误: 缺少“;”(在标识符“pcur”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(27): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(27): error C2065: “ph”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(27): error C2223: “->next”的左侧必须指向结构/联合
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(28): error C2065: “pnode”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(28): error C2146: 语法错误: 缺少“;”(在标识符“ptmp”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(28): error C2065: “ptmp”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(33): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(33): error C2223: “->next”的左侧必须指向结构/联合
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(35): error C2065: “ptmp”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(35): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(35): error C2223: “->next”的左侧必须指向结构/联合
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(36): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(36): error C2223: “->next”的左侧必须指向结构/联合
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(37): error C2065: “ptmp”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(37): warning C4022: “free”: 指针与实参 1 不匹配
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(39): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(39): error C2223: “->next”的左侧必须指向结构/联合
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(41): error C2065: “pcur”: 未声明的标识符
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\test.c(41): error C2223: “->data”的左侧必须指向结构/联合
+         clist.c
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(8): error C2061: 语法错误: 标识符“pnode”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(9): error C2059: 语法错误:“}”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(14): error C2061: 语法错误: 标识符“pnode”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(15): error C2059: 语法错误:“}”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2061: 语法错误: 标识符“Creat”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(17): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(18): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.h(19): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(3): error C2061: 语法错误: 标识符“Creat”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(3): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(3): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(12): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(12): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(12): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(12): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(12): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(56): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(56): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(56): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(56): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(56): error C2059: 语法错误:“)”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(65): error C2146: 语法错误: 缺少“)”(在标识符“ph”的前面)
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(65): error C2061: 语法错误: 标识符“ph”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(65): error C2059: 语法错误:“;”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(65): error C2059: 语法错误:“,”
+     1>c:\users\贺致宁\documents\visual studio 2013\projects\joseph\joseph\clist.c(65): error C2059: 语法错误:“)”
+         正在生成代码...
+     1>已完成生成项目“c:\Users\贺致宁\documents\visual studio 2013\Projects\Joseph\Joseph\Joseph.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.51
