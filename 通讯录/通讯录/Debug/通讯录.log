@@ -1,0 +1,15 @@
+﻿生成启动时间为 2018/11/25 21:50:32。
+     1>项目“D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\通讯录\通讯录.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\ZhiningHe\Apps\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
+         test.c
+     1>d:\zhininghe\bit_每日练习\c语言练习\通讯录\通讯录\test.c(55): warning C4047: “函数”:“friends (*)[1000]”与“friends [1000]”的间接级别不同
+     1>d:\zhininghe\bit_每日练习\c语言练习\通讯录\通讯录\test.c(55): warning C4024: “init”: 形参和实参 1 的类型不同
+       Link:
+         D:\ZhiningHe\Apps\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\Debug\通讯录.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\Debug\通讯录.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\Debug\通讯录.lib" /MACHINE:X86 Debug\test.obj
+         通讯录.vcxproj -> D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\Debug\通讯录.exe
+     1>已完成生成项目“D:\ZhiningHe\bit_每日练习\C语言练习\通讯录\通讯录\通讯录.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.00
