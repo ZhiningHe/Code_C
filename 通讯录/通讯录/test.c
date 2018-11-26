@@ -31,60 +31,36 @@ int Init(friends (*arr)[1000],int num) //添加联系人，num个
 {
 	assert(arr);
 	int i = 0;
-	while (*arr)
+	while (arr[i])
 	{
-		arr++;
+		if (i == 1000)
+		{
+			printf("通讯录已存储满！\n");
+			return -1;
+		}
 		i++;
 	}
-	if (i == 1000)
-	{
-		printf("通讯录已存储满！\n");
-		return -1;
-	}
-	for (int i = 0; i < num; i++)
+
+
+	for (int j = 0; j < num; j++)
 	{
 		printf("输入要添加的联系人姓名，性别，年龄，电话号码，家庭住址:\n");
-		scanf("%c%c%d%d%c", &((*(arr + i))->name), &((*(arr + i))->sex), &((*(arr + i))->age), \
-			&((*(arr + i))->number), &((*(arr + i))->address));
+		scanf("%c%c%d%d%c", arr[i++]->name, arr[i++]->sex,arr[i++]->age,arr[i++]->number,arr[i++]->address);
+		printf("<添加成功！\n");
 	}
-	printf("<添加成功！\n");
+
 	return 0;
 }
 
 int Find(friends(*arr)[1000], char find_name)
 {
 	assert(arr);
-	int i = 0; int flag = 0;
-	while (*arr)
-	{
-		int ret = strcmp((*arr)->name, find_name);
-		if (!ret)
-		{
-			flag = i;
-			break;
-		}
-		arr++; i++;
-	}
-	return flag;	//返回find_name的下标,不存在返回0；
+
 }
 
 void Delete(friends(*arr)[1000], char delete_name)
 {
-	int ret = Find(arr, delete_name);
-	if (!ret)
-	{
-		printf("联系人不存在！\n");
-	}
-	int i = ret;
-	while (i--)
-	{
-		arr++;
-	}
-	while (*(++arr))
-	{
-		*(arr - 1) = *arr;
-	}
-	printf("删除成功！\n");
+
 }
 
 int main()
